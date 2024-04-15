@@ -1,0 +1,4 @@
+[build]
+  command = "npm run build"  # ou o comando que você usa para construir o frontend
+  publish = "public/index.php"  # diretório de saída do build
+  functions = "public/build"  # diretório contendo suas funções do Lambda (caso necessário)
